@@ -1,0 +1,55 @@
+set $mod Mod4
+
+font pango:JetBrainsMono-Regular 10
+
+include $HOME/.config/i3/audio
+include $HOME/.config/i3/autostart
+include $HOME/.config/i3/screenshot
+include $HOME/.config/i3/theme
+include $HOME/.config/i3/workspaces
+
+# start a terminal
+bindsym $mod+Return exec i3-sensible-terminal
+
+# start rofi (a program launcher)
+bindsym $mod+d exec --no-startup-id rofi -show drun
+
+# change focus
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# split in horizontal orientation
+bindsym $mod+h split h
+
+# split in vertical orientation
+bindsym $mod+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# toggle tiling / floating
+bindsym $mod+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+space focus mode_toggle
+
+# kill focused window
+bindsym $mod+Shift+q kill
+
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+
+# exit i3 (logs you out of your X session)
+bindsym $mod+Shift+e exec "i3-msg exit"

@@ -1,0 +1,12 @@
+gaps inner 10
+
+# Remove border if wanted
+# for_window [all] border pixel 0
+
+client.focused          #0 #4C566A #ECEFF4 #2E9EF4   #285577
+client.focused_inactive #333333 #3B4252 #e5e9f0 #484E50   #5F676A
+client.unfocused        #333333 #2E3440 #D8DEE9 #292D2E   #222222
+client.urgent           #2F343A #BF616A #ECEFF4 #900000   #900000
+client.placeholder      #000000 #0C0C0C #ECEFF4 #000000   #0C0C0C
+
+client.background       #FFFFFF

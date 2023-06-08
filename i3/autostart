@@ -1,0 +1,18 @@
+exec --no-startup-id dex --autostart --environment i3
+
+# Set monitor setup
+exec --no-startup-id xrandr --output DP-2 --primary --left-of DP-0
+
+# Set wallpaper
+# TODO add wallpaper to repo?
+exec feh --bg-scale ~/Pictures/wallpaper/nord.png
+
+# Start polybar
+exec --no-startup-id $HOME/.config/polybar/launch.sh
+
+# Start picom
+exec --no-startup-id picom
+
+# Enable keyboard umlaute
+exec --no-startup-id setxkbmap -option compose:ralt
+
