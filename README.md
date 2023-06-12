@@ -4,7 +4,7 @@ These are my dotfiles. It includes the following:
 
 - i3
 - picom
-- rofi (from https://github.com/ericmurphyxyz)
+- rofi (copied from [https://github.com/ericmurphyxyz](https://github.com/ericmurphyxyz/dotfiles))
 
 ## Installing
 
