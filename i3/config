@@ -9,7 +9,7 @@ include $HOME/.config/i3/theme
 include $HOME/.config/i3/workspaces
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec alacritty
 
 # start rofi (a program launcher)
 bindsym $mod+d exec --no-startup-id rofi -show drun
