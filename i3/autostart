@@ -13,6 +13,6 @@ exec --no-startup-id $HOME/.config/polybar/launch.sh
 # Start picom
 exec --no-startup-id picom
 
-# Enable keyboard umlaute
+# Enable keyboard umlauts
 exec --no-startup-id setxkbmap -option compose:ralt
 
