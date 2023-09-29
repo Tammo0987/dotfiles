@@ -5,7 +5,7 @@ exec --no-startup-id xrandr --output DP-2 --primary --left-of DP-0
 
 # Set wallpaper
 # TODO add wallpaper to repo?
-exec feh --bg-scale ~/Pictures/wallpaper/nord.png
+exec feh --bg-scale $HOME/.config/wallpaper/nord.png
 
 # Start polybar
 exec --no-startup-id $HOME/.config/polybar/launch.sh
